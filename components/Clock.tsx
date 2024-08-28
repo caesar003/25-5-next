@@ -73,14 +73,13 @@ const PomodoroClock: React.FC = () => {
           className="flex items-center gap-2 px-6 py-3 bg-blue-600 hover:bg-blue-500 text-white font-semibold rounded-lg transition-colors duration-200"
         >
           {isActive ? <Pause className="w-6 h-6" /> : <Play className="w-6 h-6" />}
-          {isActive ? 'Pause' : 'Start'}
+          {/*isActive ? 'Pause' : 'Start'*/}
         </button>
         <button
           onClick={resetTimer}
           className="flex items-center gap-2 px-6 py-3 bg-red-600 hover:bg-red-500 text-white font-semibold rounded-lg transition-colors duration-200"
         >
           <RotateCcw className="w-6 h-6" />
-          Reset
         </button>
       </div>
 
